@@ -1,0 +1,5 @@
+<div class="list p-2">
+  <h5> {{ list.title }} </h5>
+
+  <app-card *ngFor="let card of list.cards" [card]="card"></app-card>
+</div>
